@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.csv
+
+# Virtual environments
+venv/
+.env
+
+# CSV and JSON outputs
+debug.log
+precios-historicos-updated.csv
+precios-historicos.csv
+stations_prices.json
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# System files
+*.swp
+*.swo
+
+# Others
+*.bak
+*.tmp
