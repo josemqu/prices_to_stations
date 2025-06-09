@@ -28,7 +28,12 @@ Este proyecto convierte un archivo CSV con listados históricos de precios de co
    - Coloca el archivo `.env` con tu API Key en el mismo directorio que el script.
    - Coloca el archivo `precios-historicos.csv` en el mismo directorio.
 
-2. **Ejecuta el script:**
+2. **Activa el entorno virtual (recomendado):**
+   ```bash
+   source venv/bin/activate
+   ```
+
+3. **Ejecuta el script:**
    ```bash
    python csv_to_json.py
    ```
